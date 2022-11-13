@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "types": [
+      "node",
+      "webdriverio/async",
+      "@wdio/mocha-framework",
+      "expect-webdriverio"
+    ],
+    "allowJs": true,
+    "target": "es2019"
+  },
+  "include": [
+    "./test/spec/**/*.ts",
+    "./wdio.conf.ts",
+    "./test/pages/**/*.ts",
+    "./test/pages/*.ts",
+    "./test/config/*.ts"
+  ]
+}
